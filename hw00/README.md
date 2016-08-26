@@ -22,8 +22,8 @@ initialize the git repository for you. See below. But first, Rust!
 
 ## Installing Rust
 
-For this homework, all you'll have to do is install the Rust compiler (rustc)
-and the Rust package manager (Cargo). We'll be using Rust v1.11 for this class.
+For this homework, you'll install the Rust compiler (rustc) and the Rust package
+manager (Cargo). We'll be using Rust v1.11, the current stable version.
 
 We will be using [rustup.rs], a tool which manages multiple Rust toolchains
 on your system. It supports Linux, OS X, and Windows.
