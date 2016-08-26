@@ -9,9 +9,10 @@ Links on [course homepage].
 
 #### Classroom for GitHub
 
-We're using Classroom for GitHub, which manages private homework repositories
-for students. To create your very own private homework repository (owned by
-us), click the link on the course Piazza.
+We will be using Classroom for GitHub, which creates private repositories for
+students. To create your very own private homework repository (owned by us),
+click the link on the course Piazza. Don't initialize it just yet! We'll do that
+at the end of this assignment.
 
 (Since there's not much to submit for this assignment, this link isn't public.
 Future assignments will let anyone create a repository.)
@@ -33,7 +34,7 @@ automatically download the Stable toolchain and set that as your default.
 [rustup.rs]: https://www.rustup.rs/
 
 To check that Rust and Cargo are installed properly, run these commands,
-and make sure the output matches below:
+and check that the output matches below:
 
 ```
 $ rustc --version
@@ -101,9 +102,8 @@ That's it!
 Adding to your personal environment setup is one of the many joys of starting
 a new programming language.
 
-Rust provides a [couple of official config files][configs.md]. There are more
-unofficial or less-supported ones out there, so it's worth looking around. If
-you aren't sure what to use, I highly suggest trying vim!
+Rust provides a [couple of official config files][configs.md], including Vim,
+Emacs, and Sublime. If you aren't sure what to use, I highly suggest trying vim!
 
   [configs.md]: https://github.com/rust-lang/rust/blob/master/src/etc/CONFIGS.md
 
