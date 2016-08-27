@@ -20,6 +20,17 @@ Future assignments will let anyone create a repository.)
 If there is no starter code, such as in this homework, you can use Cargo to
 initialize the git repository for you. See below. But first, Rust!
 
+#### Git
+
+If you aren't fmailiar with using Git or you want to brush up, here are a few
+good links:
+
+- The [Git Parable][parable]: an article explaining the motivation behind and understanding _why_ git.
+- [Learn Git Branching][branch]: an interactive git tutorial
+
+[branch]: http://learngitbranching.js.org/
+[parable]: http://tom.preston-werner.com/2009/05/19/the-git-parable.html
+
 ## Installing Rust
 
 For this homework, you'll install the Rust compiler (rustc) and the Rust package
