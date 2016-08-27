@@ -39,6 +39,13 @@ manager (Cargo). We'll be using Rust v1.11, the current stable version.
 We will be using [rustup.rs], a tool which manages multiple Rust toolchains
 on your system. It supports Linux, OS X, and Windows.
 
+If you don't want to install Rustup on your own OS, you can install it on a
+virtual machine instead. CIS196 has set up a vm image which has some common
+tools installed; instructions are [available here][vm]. You still have to
+install Rust on your own (but it's easy!)
+
+[vm]: https://www.seas.upenn.edu/~cis196/VM/
+
 Install [rustup.rs] by following the instructions on the website. It will
 automatically download the Stable toolchain and set that as your default.
 
