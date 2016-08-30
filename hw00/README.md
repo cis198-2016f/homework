@@ -27,7 +27,10 @@ good links:
 
 - The [Git Parable][parable]: an article explaining the motivation behind and understanding _why_ git.
 - [Learn Git Branching][branch]: an interactive git tutorial
+- The [Official Git Book][git-book]: the official git book is a great and easy
+  to understand resource for learning git.
 
+[git-book]: https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
 [branch]: http://learngitbranching.js.org/
 [parable]: http://tom.preston-werner.com/2009/05/19/the-git-parable.html
 
@@ -58,7 +61,7 @@ and check that the output matches below:
 $ rustc --version
 rustc 1.11.0 (9b21dcd6a 2016-08-15)
 $ cargo --version
-cargo 0.12.0-nightly (6b98d1f 2016-07-04)
+cargo 0.13.0-nightly (88e46e9 2016-06-26)
 ```
 
 Awesome! Rust is ready to roll.
