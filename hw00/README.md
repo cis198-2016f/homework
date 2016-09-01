@@ -1,6 +1,6 @@
 # Homework 00: Hello Rust & Hello Cargo!
 
-**Due 2016-09-06, 11:59pm.**
+**Due Wednesday, 2016-09-07, 11:59pm.**
 
 Please ask questions on Piazza (Penn students) or Google Groups (other).
 Links on [course homepage].
