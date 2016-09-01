@@ -14,6 +14,8 @@ in a Rust library, building and testing using Cargo, and writing modules. This
 assignment is intended to be relatively straightforward, and will make sure
 you're set up properly in the Rust ecosystem.
 
+You may find it useful to reference first lecture slides and [Rust by Example](http://rustbyexample.com/)
+
 #### Classroom for GitHub
 
 We're using Classroom for GitHub, which manages private homework repositories
