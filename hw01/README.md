@@ -347,6 +347,20 @@ fn jenkins(bytes: &[u8]) -> u64 {
 }
 ```
 
+## Survey
+
+Add a `README.md` file to your repository with the answers to these questions:
+
+1. Introduce yourself! What other languages do you know? What classes have you
+   taken (or are taking)? How comfortable are you have with git and using the
+   command line?
+   (We'll try to keep this class at the right level for people taking it, so
+   it's okay if you don't have as much experience.)
+
+2. What are you interested in learning from this class?
+
+3. How hard did you find this assignment?
+
 ## Submission
 
 Commit and push your work to the master branch of your Classroom for Github
