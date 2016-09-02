@@ -289,7 +289,7 @@ To test if an element is in the set:
 
 1. Find the hash of the element with using each of your *k* hash functions.
 2. If *all* of the hash locations are *true*, return "probably true". Otherwise,
-   return "definitely false."
+   return "definitely false".
 
 Given this structure, it's possible to return false positives but not false
 negatives.
