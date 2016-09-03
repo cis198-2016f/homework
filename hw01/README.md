@@ -306,17 +306,17 @@ negatives.
 /// data vector, and another value to query. Returns `true` if `value` is
 /// "probably" in the data vector and `false` if it is definitely not in the
 /// data vector.
-fn bloom(data: &Vec<&str>, hashes: [fn(&[u8]) -> u64; 3], value: &str)
+pub fn bloom(data: &Vec<&str>, hashes: [fn(&[u8]) -> u64; 3], value: &str)
         -> bool {
     // TODO
-    unimplemented!
+    unimplemented!();
 }
 ```
 
 Here are three hash functions to use. Add this code to your `problem4` module.
 
 ```rust
-fn djb2(bytes: &[u8]) -> u64 {
+pub fn djb2(bytes: &[u8]) -> u64 {
     let mut hash: u64 = 5381;
     for b in bytes {
         // hash * 33 + c
@@ -326,7 +326,7 @@ fn djb2(bytes: &[u8]) -> u64 {
     return hash;
 }
 
-fn fnv(bytes: &[u8]) -> u64 {
+pub fn fnv(bytes: &[u8]) -> u64 {
     let mut hash = 0xcbf29ce484222325;
     for b in bytes {
         hash = hash ^ (*b as u64);
@@ -335,7 +335,7 @@ fn fnv(bytes: &[u8]) -> u64 {
     return hash;
 }
 
-fn jenkins(bytes: &[u8]) -> u64 {
+pub fn jenkins(bytes: &[u8]) -> u64 {
     let mut hash = 0;
     for b in bytes {
         hash += *b as u64;
