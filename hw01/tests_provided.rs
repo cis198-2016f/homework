@@ -3,7 +3,7 @@
 use problem1::{sum, dedup, filter};
 use problem2::sieve;
 use problem3::hanoi;
-use problem3::{bloom, djb2, fnv, jenkins};
+use problem4::{bloom, djb2, fnv, jenkins};
 
 //
 // Problem 1
