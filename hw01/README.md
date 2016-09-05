@@ -280,19 +280,19 @@ The algorithm is simple:
 First, initialize a fixed size boolean array for storage and *k* different hash
 functions for testing.
 
-For each element to insert:
+To insert an element *x*:
 
-1. Find the hash of the element with using each of your *k* hash functions.
-2. Set the bools at those locations in your array to be *true*.
+1. Hash *x*  with using each of your *k* hash functions.
+2. For each hashed value *y = h(x)*, set the bools at the index *y* in your array to be *true*.
 
-To test if an element is in the set:
+To test if a value *x* is in the set:
 
-1. Find the hash of the element with using each of your *k* hash functions.
-2. If *all* of the hash locations are *true*, return "probably true". Otherwise,
-   return "definitely false".
+1. Hash *x*  with using each of your *k* hash functions.
+2. If *all* of the hash indices in your array are *true*, return "probably
+   true". Otherwise, return "definitely false".
 
 Given this structure, it's possible to return false positives but not false
-negatives.
+negatives. You can see a visualization of this algorithm [here](http://billmill.org/bloomfilter-tutorial/).
 
 * You may assume that the `&str`s only contains ASCII characters, so you can
   safely convert each character to `u8` by casting with `as u8`. You can also
