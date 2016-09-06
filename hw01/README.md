@@ -253,9 +253,8 @@ move one disc at a time, and a disc may only be placed on a disc larger than it
 Check out the Wikipedia page (linked above) for algorithm details and snazzy
 animations.
 
-This function will take in a number of discs, and the names of the three
-pegs, and return a vector of `(u8, u8)` tuples. Each tuple represents one move
-between (source, destination).
+This function will take in a number of discs, and return a vector of `(u8, u8)`
+tuples. Each tuple represents one move between (source, destination).
 
 ```rust
 /// Solves for the sequence of moves required to move all discs from peg 1 to
