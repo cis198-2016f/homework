@@ -53,18 +53,18 @@ Rust-specific errors.
 Compiler plugins are only supported on Rust's nightly builds, so we will switch
 to nightly for this assignment.
 
-To tell Rustup to compile a particular project with the nightly
-toolchain instead of the stable one, `cd` into your project directory and run
-`rustup override set nightly`. This will install the most recent nightly
-toolchain if it's not already installed, and then override your default
-toolchain for this project folder.
-
-You can (and should) instead pin Rustup to a specific nightly version. We will
-test your code on `nightly-2016-09-05` (Monday's build). Set this override with:
+You can set a Rustup override to compile a particular project with a different
+toolchain from your default setting. This override can point to a specific
+nightly version. We will test your code on `nightly-2016-09-05` (Monday's
+build). Set this override with:
 
 ```
-rustup override set nightly-2016-09-05`
+cd hw02
+rustup override set nightly-2016-09-05
 ```
+
+This will install the override toolchain if it's not already
+installed, and then override your default toolchain for this project folder.
 
 Clippy has already been enabled for your project in `lib.rs`.
 
