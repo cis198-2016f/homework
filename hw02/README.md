@@ -74,8 +74,7 @@ Clippy has already been enabled for your project in `lib.rs`.
 ### Implementation
 
 This _roughly_ corresponds to [TML 2]: A Bad Singly-Linked Stack. We recommend
-following along with the text for walkthrough on steps to take and general
-advice.
+following along with the text for a walkthrough and general advice.
 
 Start off by defining your type ([TML 2.1: Layout][TML 2.1]):
 
