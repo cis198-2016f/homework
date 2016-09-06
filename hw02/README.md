@@ -157,9 +157,9 @@ to be any more complex than the tests in TML 2.6.
 ### Submission
 
 Just like before, commit and push your work to the master branch of your
-Classroom for Github repository for this HW. ***Make sure it is visible on
-Github!*** This is your submission. (Work must be in the master branch at the
-due time.)
+Classroom for Github repository for this HW. **Make sure it is visible on
+Github!** This is your submission. Work must be in the master branch at the
+due time.
 
 Your submission should run on `nightly-2016-09-06`.
 Your code should not emit any warnings (or errors).
