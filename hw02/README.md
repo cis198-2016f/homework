@@ -19,9 +19,9 @@ We will be implementing a [Binary Search Tree][BST].
 [TML]: http://cglab.ca/~abeinges/blah/too-many-lists/book/
 [BST]: https://en.wikipedia.org/wiki/Binary_search_tree
 
-#### Classroom for GitHub
+#### GitHub Classroom
 
-We're using Classroom for GitHub, which manages private homework repositories
+We're using GitHub Classroom, which manages private homework repositories
 for students. To create your very own private homework repository (owned by
 us), click this link:
 
@@ -29,7 +29,7 @@ us), click this link:
 
 ## Instructions
 
-Unlike the previous assignments, your Classroom for GitHub repository will be
+Unlike the previous assignments, your GitHub Classroom repository will be
 initialized with a Cargo project. Just clone it to get started. You can see the
 [starter code] as its own repo, as well.
 

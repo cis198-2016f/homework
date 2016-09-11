@@ -7,9 +7,9 @@ Links on [course homepage].
 
 [course homepage]: cis198-2016f.github.io
 
-#### Classroom for GitHub
+#### GitHub Classroom
 
-We will be using Classroom for GitHub, which creates private repositories for
+We will be using GitHub Classroom, which creates private repositories for
 students. To create your very own private homework repository (owned by us),
 click the link on the course Piazza. Don't initialize it just yet! We'll do that
 at the end of this assignment.

@@ -16,9 +16,9 @@ you're set up properly in the Rust ecosystem.
 
 You may find it useful to reference first lecture slides and [Rust by Example](http://rustbyexample.com/)
 
-#### Classroom for GitHub
+#### GitHub Classroom
 
-We're using Classroom for GitHub, which manages private homework repositories
+We're using GitHub Classroom, which manages private homework repositories
 for students. To create your very own private homework repository (owned by
 us), click this link:
 
@@ -44,7 +44,7 @@ hw01
 Since this is a library and not an executable, Cargo creates `lib.rs` instead of
 `main.rs`.
 
-Add your Classroom for GitHub repository as a git remote:
+Add your GitHub Classroom repository as a git remote:
 
 ```
 git remote add origin git@github.com:cis198-2016f/hw01-<username>.git
