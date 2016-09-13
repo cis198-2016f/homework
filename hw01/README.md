@@ -5,7 +5,7 @@
 Please ask questions on Piazza (Penn students) or Google Groups (other).
 Links on [course homepage].
 
-[course homepage]: cis198-2016f.github.io
+[course homepage]: //cis198-2016f.github.io
 
 ## Overview
 
