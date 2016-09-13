@@ -140,7 +140,7 @@ git push -u origin master
 
 (If you're not using SSH for GitHub, you will need to use the HTTPS URL instead.
 I also highly recommend generating an SSH key and using it to authenticate with
-GitHub -- [instructions here][src].)
+GitHub -- [instructions here][ssh].)
 
 [ssh]: https://help.github.com/articles/generating-an-ssh-key/
 
