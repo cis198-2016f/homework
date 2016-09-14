@@ -47,7 +47,7 @@ Since this is a library and not an executable, Cargo creates `lib.rs` instead of
 Add your GitHub Classroom repository as a git remote:
 
 ```
-git remote add origin git@github.com:cis198-2016f/hw01-<username>.git
+git remote add origin git@github.com:cis198-2016f/hw01-finger-exercises-<username>.git
 git push -u origin master
 ```
 
