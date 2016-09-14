@@ -48,6 +48,8 @@ Add your GitHub Classroom repository as a git remote:
 
 ```
 git remote add origin git@github.com:cis198-2016f/hw01-finger-exercises-<username>.git
+git add -A
+git commit -a
 git push -u origin master
 ```
 
