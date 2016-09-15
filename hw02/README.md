@@ -153,7 +153,7 @@ You should test `search` and `insert` in various orders, for both true and
 false results. Use `assert!()` and/or `assert_eq!()`. They don't have
 to be any more complex than the tests in TML 2.6.
 
-### Submission
+## Submission
 
 Just like before, commit and push your work to the master branch of your
 Classroom for Github repository for this HW. **Make sure it is visible on
@@ -163,4 +163,4 @@ due time.
 Your submission should run on `nightly-2016-09-06`.
 Your code should not emit any warnings (or errors).
 `cargo test` should run all of your tests successfully.
-Make sure you have written tests which cover every one of your functions.
+Make sure you have written tests for each of your functions.
