@@ -1,6 +1,6 @@
 # Homework 05: The ~~Fun-Time Reference Sharing~~ _Darkest_ Dungeon
 
-**Due Wednesday, 2016-10-02, 11:59pm.**
+**Due Sunday, 2016-10-16, 11:59pm.**
 
 For questions, please post on Piazza (Penn students) or Google Groups (other).
 Links on course homepage.
