@@ -45,16 +45,28 @@ You'll need to use rustdoc to generate documentation before each presentation
 * We would really like your project to be open-source!
   You don't need to pick licensing immediately, but consider Apache and MIT.
 
-### Ideas / Libraries
+## Suggestions
+
+### Libraries
 
 * Piston (GUI toolkit)
 * nix (libc wrapper)
+* nom (byte-level parser combinator)
+* future.rs (futures & streams)
+
+### Possible ideas
+
 * Rewriting slow parts of other programs (e.g. Python/Ruby)
 * Distributed system / networking
     * Implementing a communication protocol stack or library
     * Distributed server
 * Write a server for a particular protocol (ssh, ntp, ftp, http)
-* Some kind of game
+* Games
+    * Contributing to Piston
+    * Console emulator
+* Take a look at the [2017 Rust
+  Roadmap](https://internals.rust-lang.org/t/setting-our-vision-for-the-2017-cycle/3958)
+  for libraries that are wanted.
 
 ## Proposal Document
 
