@@ -54,6 +54,19 @@ You'll need to use rustdoc to generate documentation before each presentation
 * nom (byte-level parser combinator)
 * future.rs (futures & streams)
 
+### Projects Looking for Contributors
+
+(From the Rust Belt Rust conference)
+
+* Iron
+* Tokio
+* intermezzOS
+* Pijul
+* servo
+* nom
+* clap
+* Habitat
+
 ### Possible ideas
 
 * Rewriting slow parts of other programs (e.g. Python/Ruby)
