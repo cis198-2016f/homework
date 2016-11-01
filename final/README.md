@@ -34,7 +34,7 @@ You'll need to use rustdoc to generate documentation before each presentation
 * If you start a new project, we would love to see stuff that hasn't been done in
   Rust before!
 
-* We expect you to do about (3 weeks * 0.5 credit) worth of work per person -
+* We expect you to do about (4 weeks * 0.5 credit) worth of work per person -
   but what that means is subjective. More work will mean a more impressive
   project - but it's much more important that you finish!
 
