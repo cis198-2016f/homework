@@ -3,11 +3,11 @@
 ## Schedule
 
 * Tue. 11/08 - Proposal Presentation (in class) (5 min)
-* Wed. 12/07 - Final Report (PDF via Canvas)
+  * Wed. 11/09 - Proposal Writeup (PDF via Canvas)
 * Tue. 11/15 - Milestone 1 Presentation (in class) (3-5 min)
 * Tue. 11/29 - Milestone 2 Presentation (in class) (3-5 min)
 * Tue. 12/06 - Final Presentation (in class) (10 min)
-* Wed. 12/07 - Final Report (README)
+  * Wed. 12/07 - Final Report (README)
 
 ## Grading
 
