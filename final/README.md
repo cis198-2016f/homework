@@ -110,50 +110,6 @@ All of your work must be in your repository by class time, including
 rustdoc documentation for the work you're presenting (see below).
 If you're contributing, this means it should be in your fork.
 
-## Documentation
-
-If you are working on a standalone project, you should have rustdocs documenting
-all of the work you've done so far, at each milestone and the final
-presentation. This doesn't mean documenting every single function - but you need
-detailed documentation for the modules, functionality, and all important
-structs/functions.
-
-**Important:** Spend time on this and write in-depth documentation.
-It will be a significant part of our grading!
-
-For any general information, put it on your crate root module. You can use
-this syntax for module documentation:
-
-```
-//! if you put this documentation comment style in a
-//! module, it will apply to the module itself instead
-//! of the thing after it
-```
-
-Please host docs somewhere online. You can use
-[hosting on Eniac](http://www.seas.upenn.edu/cets/answers/webpage.html),
-or you may use a [GitHub Pages](https://pages.github.com/) project site.
-
-By default, `cargo doc --no-deps` will export documentation for everything
-_public_ in your crate. However, for the project, you'll likely want to
-export everything. To do this, use:
-
-```sh
-cargo rustdoc -- --no-defaults --passes collapse-docs --passes unindent-comments
-```
-
-Here is some [example rustdoc output](http://cis198-2016s.github.io/final-sample-rustdoc/webchat/).
-This shows the output of the above command on our HW07 solution. Note that it
-doesn't have any _module-level_ documentation - which will be most important
-for you.
-
-If you're contributing to another project, you should send us a compilation of
-the documentation for everything **you** have written as part of your project.
-
-If there is any additional extra information that you want to send to us but
-think doesn't belong in the documentation, email it to us before your
-presentation.
-
 ## Final Report
 
 Write your report in markdown, and save it as `REPORT.md` in your repository
